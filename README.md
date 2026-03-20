@@ -1,2 +1,2 @@
 # CameraPlusChangeProfile
-![Image]("CPCP.png")
+![CPCP](https://github.com/szxfcv/CameraPlusChangeProfile/blob/main/CPCP.png)
