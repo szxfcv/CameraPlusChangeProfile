@@ -1,0 +1,13 @@
+﻿{
+  "$schema": "https://raw.githubusercontent.com/bsmg/BSIPA-MetadataFileSchema/master/Schema.json",
+  "id": "CameraPlusChangeProfile",
+  "name": "CameraPlusChangeProfile",
+  "author": "banao",
+  "version": "0.0.1",
+  "description": "",
+  "gameVersion": "1.40.8",
+  "dependsOn": {
+    "BSIPA": "^4.3.6",
+    "CameraPlus":  "^7.6.2"
+  }
+}

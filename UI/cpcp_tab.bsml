@@ -1,0 +1,29 @@
+﻿<bg xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' 
+	xsi:noNamespaceSchemaLocation='https://monkeymanboy.github.io/BSML-Docs/BSMLSchema.xsd' 
+	view-controller='CameraPlusChangeProfile.UI.CameraPlusChangeProfileMenu'>
+	<vertical>
+		<text text="CameraPlus Profiles" align="Center" />
+
+		<custom-list id="profile-list"
+					 data="profiles"
+					 select-cell="on-select"
+					 visible-cells="2.2"
+					 min-width="78"
+					 clickable-cells="true"
+					 show-scrollbar="true">
+			<background tags='selected' background='panel-fade-gradient' background-color='fuchsia' />
+			<stack>
+				<vertical horizontal-fit="Unconstrained" vertical-fit="Unconstrained" min-width="70" child-expand-width="true">
+					<text text="~item-text" />
+				</vertical>
+			</stack>
+
+		</custom-list>
+		<text id="selected-item-text" text="Select a profile to apply" font-size="5.5" align="Center" />
+		<horizontal horizontal-fit="PreferredSize" spacing="10">
+			<button text="Apply to MenuProfile" on-click="click-Menu-action"/>
+			<button text="Apply to GameProfile" on-click="click-Game-action"/>
+		</horizontal>
+	</vertical>
+
+</bg>
